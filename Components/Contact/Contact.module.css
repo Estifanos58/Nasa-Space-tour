@@ -1,0 +1,47 @@
+.cont {
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    gap: 20px;
+
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.contact_person{
+    padding-right: 20px;
+    border: none;
+    border-radius: 50px;
+    height: 30vh;
+    display: flex;
+    gap: 15vh;
+    width: 800px;
+    background-color: rgba(128, 128, 128, 0.587);
+    color: white;
+}
+.contact_person img{
+    height: 100%;
+    width: 25%;
+    border-radius: 50px 0 0 50px;
+}
+.contact_disc {
+    width: 45%;
+}
+.contact_disc h1 {
+    font-size: 5rem;
+}
+.contact_disc p {
+    font-size:  3rem;
+}
+.contact_person h1 {
+    font-size: 3rem;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}

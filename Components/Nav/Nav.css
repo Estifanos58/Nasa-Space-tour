@@ -1,0 +1,31 @@
+.nav {
+    width: 100%;
+    height: 15vh;
+} 
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+}
+.nav-right img {
+    width: 100px;
+}
+.nav-list-container {
+    display: flex;
+    gap: 40px;
+}
+.nav-list-container li {
+    list-style: none;
+    font-size: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-list-container li:hover, .active {
+    border-bottom: 2px solid red;
+    transition: border-bottom 0.3s ease-in-out;
+}

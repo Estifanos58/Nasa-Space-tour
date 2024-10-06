@@ -1,0 +1,102 @@
+.form {
+    /* height: 100vh; */
+
+    overflow: hidden;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../src/assets/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-fname, .form-lname, .form-age, .form-email .form-title{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 30px 0;
+}
+.form-age {
+    gap: 35px;
+}
+.form-email label{
+    margin-right: 25px;
+}
+.form .form-email input {
+    width: 300px;
+}
+.form-title{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 20px 0;
+}
+.form-title select {
+    width: 80px;
+    height: 40px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+   
+}
+.form label {
+    font-size: 2rem;
+}
+.form input {
+    width: 280px;
+    height: 35px;
+    padding: 20px 10px;
+    font-size: 25px;
+    outline: none;
+    border-radius: 10px;
+}
+.form-input h1 {
+    margin: 15px 0;
+}
+.form-container {
+    width: 700px;
+    height: 800px;
+    padding: 100px 100px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #000000ad;    
+}
+.rocket {
+    transform: translate(0, 100px);
+}
+.lunch{
+    background: transparent;
+    transform: rotate(40deg) translate(100px,-1550px);
+    transition: all 1.5s ease-in;
+}
+.form-input h1 {
+    font-size: 2.4rem;
+}
+.form .title{
+    border: none;
+    background: transparent;
+    margin: -100px 0;
+}
+.form-input select {
+    margin: 0 110px;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.5rem;
+}
+.form-input select option {
+    width: 300px;
+}
+.form-input button {
+    margin: 20px 190px;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}

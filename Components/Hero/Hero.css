@@ -1,0 +1,8 @@
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: -150px;
+    /* align-items: center; */
+    /* margin-left: 500px; */
+}
